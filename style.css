@@ -30,12 +30,23 @@
     margin: 0;
 }
 
+body{
+    font-family: arial, sans-serif;
+}
+
 .footer_navLinks{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 20px;
 }
+
+@media only screen and (max-width: 600px){
+    .footer_anchors{
+        justify-content: space-evenly;
+    }
+}
+
 
 .google_anchors_footer{
     display: flex;
